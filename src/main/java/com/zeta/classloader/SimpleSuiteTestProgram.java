@@ -16,7 +16,7 @@ public class SimpleSuiteTestProgram {
                 try {
                     m = c.getMethod("main", formals);
                 } catch (NoSuchMethodException e) {
-                    System.out.println("TestCase" + i + ": no main in test case");
+                    System.out.println("TestCase" + i + ": no main in sample case");
                     break;
                 }
                 try {
